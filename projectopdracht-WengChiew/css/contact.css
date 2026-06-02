@@ -1,0 +1,117 @@
+.contact_page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+#map {
+  height: 250px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form_group {
+  background-color: var(--secondary-bg-color);
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+  padding: 0.2rem;
+}
+
+select {
+  background-color: var(--secondary-bg-color);
+}
+
+#send {
+  background-color: var(--primary-color);
+  font-size: var(--font-size-two);
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact_text {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  #map {
+    grid-area: map;
+    width: 90%;
+    height: 300px;
+  }
+
+  .contact_text {
+    display: block;
+  }
+
+  .contact_page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "container map";
+    width: 100%;
+    gap: 3rem;
+  }
+
+  #name_form {
+    grid-area: name;
+  }
+
+  #email_form {
+    grid-area: email;
+  }
+
+  #message_form {
+    grid-area: message;
+  }
+
+  #who_form {
+    grid-area: who;
+  }
+
+  #send_form {
+    grid-area: send;
+  }
+
+  #send {
+    font-size: var(--font-size-one);
+    width: 80%;
+  }
+
+  .contact_form {
+    display: grid;
+    grid-template-columns: 175px 175px;
+    grid-template-rows: 0.5fr 2fr 0.5;
+    grid-template-areas:
+      "name email"
+      "message message"
+      "send who";
+
+    width: 100px;
+  }
+
+  #contact_container {
+    grid-area: container;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+
+  button {
+    width: 80%;
+  }
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script src="./js/contact.js" type="module"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./assets/images/Logo.png"
+        alt="Weng's Digital World Logo"
+        width="200px"
+        height="200px"
+      />
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">home</a>
+          </li>
+          <li>
+            <a href="./shop.html">shop</a>
+          </li>
+          <li>
+            <a href="./contact.html">contact</a>
+          </li>
+          <li>
+            <form class="search-form">
+              <input type="text" placeholder="search..." class="search-input" />
+              <button type="submit" class="search-button">🔍</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contact_page">
+        <div id="map"></div>
+        <div id="contact_container">
+          <div class="contact_text">
+            <h2>Heb je een vraag? Laat het ons weten!</h2>
+            <p>
+              Heb je hulp nodig bij je bestelling, wil je meer weten over onze
+              digitale producten, of heb je een specifiek verzoek? Ons team
+              staat voor je klaar. Vul het formulier hieronder in en we proberen
+              je vraag zo snel mogelijk te beantwoorden!
+            </p>
+          </div>
+          <section class="contact_form_section">
+            <form action="contact.html" method="post" class="contact_form">
+              <div class="form_group" id="name_form">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Naam"
+                  required
+                />
+              </div>
+              <div class="form_group" id="email_form">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="E-mail "
+                  required
+                />
+              </div>
+              <div class="form_group" id="who_form">
+                <select name="who_contact" id="who_contact">
+                  <option value="" disabled selected hidden>
+                    Wie te contacteren?
+                  </option>
+                  <option value="dev">Website builder</option>
+                  <option value="shop">Responsible webshop</option>
+                </select>
+              </div>
+              <div class="form_group" id="message_form">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message:"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="button" id="send">
+                Send Message
+              </button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy Wengs Digital World Inc.</p>
+    </footer>
+  </body>
+</html>

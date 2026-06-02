@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "image": "../assets/images/digivice.jpg",
+    "image_src": "www.nin-nin-game.com/digimon",
+    "name": "Digivice",
+    "description": "De Digimon device is gebaseerd op de digivice van de eerste seizoen van digimon adventure. Hiermee kan je uw eigen digimon verzorgen, trainen en evolueren. Het is alsof je werkelijk een digital pet hebt waarmee je samen op avontuur gaat. De digivice zelf heeft de mogelijk om muziek af te spelen van de bekende digimon anime, zo kan je van de muziek geniet wanneer jullie samen op stap zijn. De digivice is in drie veschillende kleuren aanwezig (blauw, wit en oranje). Er zijn meer dan 30 verschillende digimons die je kan trainen waaronder de klassiekers zoals Agumon en Gabumon.",
+    "origin": "Japan",
+    "colour": "Blauw/Oranje/Wit",
+    "category": "Digivice",
+    "price": 125,
+    "varia1": ["Battery", "Lithium-ion polymer batterij (ingebouwd)"],
+    "varia2": ["Dimensions", "60mm x 68mm x 37mm"],
+    "varia3": ["Weight", "324 gram"],
+    "varia4": [
+      "Charging",
+      "Een USB port op de computer is nodig voor het opladen"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "../assets/images/agumon.jpg",
+    "image_src": "https://withthewill.net/threads/new-digimon-plushies-agumon-playcharm-for-phones-big-plush-available.32733/",
+    "name": "Agumon",
+    "description": "Voor het 25 jaar bestaan van digimon is een grote knuffel van Agumon uitgebracht. Deze knuffel van Agumon is perfect om samen mee te knuffelen op de zetel door de zeer aangename stof die het heeft. Het is de perfect grootte en heel zacht. Op de rechtervoet kan je de logo terugvinden van de 25 jaar bestaan. Of je hem nu voor jezelf koopt of als cadeau geeft aan een trouwe fan, deze Agumon tovert gegarandeerd een glimlach op je gezicht. Beleef de magie van de digitale wereld gewoon vanaf de bank!",
+    "origin": "Japan",
+    "colour": "Geel",
+    "category": "Plushie",
+    "price": 25,
+    "varia1": ["Character", "Agumon"],
+    "varia2": ["Length", "340mm"],
+    "varia3": ["Weight", "500 gram"],
+    "varia4": ["Material", "Polyester"]
+  },
+  {
+    "id": 3,
+    "image": "../assets/images/beelzemon.jpg",
+    "image_src": "https://www.dreamland.be/nl/producten/bandai-actiefiguur-anime-heroes-digimon/02222684",
+    "name": "Beelzemon",
+    "description": "Nog een plaats over op je kast? Dan is de actiefiguur van Beelzemon zeker een aanraden. Samen met zijn twee gevaarlijke geweren is hij zeker een mooie aanwinst op je kast. Deze actiefiguur is voor jong en oud. Wil je het gevoel hebben dat je een echte digimon tamer bent. Wacht dan niet om deze Beelzemon te halen zodat jij en je partner samen avonturen kunnen beleven.",
+    "origin": "Japan",
+    "colour": "Zwart",
+    "category": "Figurine",
+    "price": 30,
+    "varia1": ["Character", "Beelzemon"],
+    "varia2": ["Length", "165mm"],
+    "varia3": ["Weight", "120 gram"],
+    "varia4": ["Material", "Plastic"]
+  },
+  {
+    "id": 4,
+    "image": "../assets/images/boosterbox.jpg",
+    "image_src": "https://world.digimoncard.com/products/pack/ex-01.php",
+    "name": "Boosterbox",
+    "description": "De Digimon booster box beschikt over 24 booster packs of de nieuwest digimon trading card game. Elke booster box bevat 10 kaarten met de kans op de meest zeldzame kaarten. Elke kaart is gebaseerd op een digimon van de originele serie met verschillende afbeeldingen, eigenschappen en sterkte’s. Met de kaarten van deze doos kan je een deck samenstellen en de digimon tcg spelen tegen andere mensen.",
+    "origin": "Japan",
+    "colour": "Blauw",
+    "category": "Cardbox",
+    "price": 80,
+    "varia1": ["Dimensions", "64mm x 148mm x 124mm"],
+    "varia2": ["Packs", "24 booster packs"],
+    "varia3": ["Weight", "435.59 gram"],
+    "varia4": ["Edition", "First edition"]
+  },
+  {
+    "id": 5,
+    "image": "../assets/images/kaisergreymon.jpg",
+    "image_src": "https://global.bandai-hobby.net/en-us/item/01_5983/",
+    "name": "Kaisergreymon",
+    "description": "Als je een grote fan van KaiserGreymon bent dan kan je deze nieuwe actiefiguur zeker niet missen. Een zeer gedetaileerde actiefiguur die je zelf helemaal in elkaar kan steken. Het proces om het zelf in elkaar te steken is wat de ervaring nog beter maakt. Kaisergreymon vertegenwoordigt moedigheid van de digitale wereld.",
+    "origin": "Japan",
+    "colour": "Rood",
+    "category": "Figurine",
+    "price": 75,
+    "varia1": ["Material", "Plastic"],
+    "varia2": ["Dimensions", "101.6mm x 76.2mm x 177.8mm"],
+    "varia3": ["Weight", "600 gram"],
+    "varia4": [
+      "Components",
+      "100 verschillende componenten om in elkaar te steken"
+    ]
+  },
+  {
+    "id": 6,
+    "image": "../assets/images/tamerbox.jpg",
+    "image_src": "https://world.digimoncard.com/products/goods/tamers-evolution-box/",
+    "name": "Tamerbox",
+    "description": "Om het vierjarig bestaan van digimon tcg te vieren is de nieuwe tamerbox uitgebracht. Deze box bevat de 12 meest populaire kaarten met een nieuw ontwerp. Deze kaarten kan je dan direct steken in de twee nieuwe sleeves pakketen die je erbij krijgt. Samen met de nieuwe playmat en dobbelstenen ben je zeker klaar om de strijd aan te gaan tegen je vrienden.",
+    "origin": "Japan",
+    "colour": "Blauw/Goud/Zwart",
+    "category": "Cardset",
+    "price": 220,
+    "varia1": ["Cards", "Deze set bezit 12 speciale editie kaarten"],
+    "varia2": [
+      "Sleeves",
+      "Twee verschillende soorten sleeves met elks 50 sleeves"
+    ],
+    "varia3": ["Dices", "4 speciale dobbelstenen"],
+    "varia4": [
+      "Others",
+      "Deze set bevat ook een doos om kaarten in te bewaren en een speelmat."
+    ]
+  }
+]

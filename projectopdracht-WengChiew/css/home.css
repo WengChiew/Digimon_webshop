@@ -1,0 +1,181 @@
+#webshop_description {
+  width: 80%;
+}
+
+#shop_button {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: var(--font-size-two);
+}
+
+/** product cards**/
+article.product {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+#best_product_1 {
+  background-image: url(../assets/images/digivice.jpg);
+}
+
+#best_product_2 {
+  background-image: url(../assets/images/kaisergreymon.jpg);
+}
+
+#best_product_3 {
+  background-image: url(../assets/images/boosterbox.jpg);
+}
+
+.product_card {
+  background-color: #3b82f6;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.titel_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#biography {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 10vw;
+  border-radius: 10px;
+}
+
+#bio_text {
+  width: 85%;
+  position: relative;
+  top: -20px;
+}
+
+#bio_image {
+  border-radius: 50%;
+  width: 90px;
+  position: relative;
+  top: -50px;
+}
+
+#home_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3vw 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "intro  .  products"
+      "bio    .  products";
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  #bestsellers {
+    display: none;
+  }
+
+  .item_container {
+    flex-direction: row;
+    grid-area: products;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "prod1   prod2"
+      "prod1   prod3";
+
+    width: 90%;
+    gap: 1rem;
+    min-height: 500px;
+  }
+
+  #biography {
+    width: auto;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0;
+    padding: 1.5rem;
+    grid-area: bio;
+    margin-top: 0px;
+    align-self: flex-start;
+  }
+
+  article.product {
+    width: 100%;
+    min-height: 250px;
+    aspect-ratio: unset;
+    height: 100%;
+  }
+
+  #best_product_2,
+  #best_product_3,
+  #best_product_1 {
+    width: 100%;
+  }
+
+  #bio_text {
+    width: 85%;
+    position: static;
+    top: auto;
+  }
+
+  #bio_image {
+    border-radius: 50%;
+    width: 90px;
+    position: static;
+    top: auto;
+  }
+
+  #home_intro {
+    grid-area: intro;
+    display: flex;
+    gap: 2rem;
+  }
+
+  #best_product_1 {
+    grid-area: prod1;
+    grid-row: span 2;
+  }
+
+  #best_product_2 {
+    grid-area: prod2;
+  }
+
+  #best_product_3 {
+    grid-area: prod3;
+  }
+
+  #shop_button {
+    order: 1;
+  }
+}

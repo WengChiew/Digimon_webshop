@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/shop.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="js/shop.js" type="module"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.4/popup.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./assets/images/Logo.png"
+        alt="Weng's Digital World Logo"
+        width="200px"
+        height="200px"
+      />
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">home</a>
+          </li>
+          <li>
+            <a href="./shop.html">shop</a>
+          </li>
+          <li>
+            <a href="./contact.html">contact</a>
+          </li>
+          <li>
+            <form class="search-form">
+              <input type="text" placeholder="search..." class="search-input" />
+              <button type="submit" class="search-button">&#128269;</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside class="cart_section">
+        <div class="shopping_cart">
+          <div class="shopping_cart_title">
+            <h3>&#128722; Shopping cart</h3>
+            <h3><button class="clear_shoppingcart">Clear</button></h3>
+          </div>
+          <div class="shoppingcart_items"></div>
+          <div class="checkout">
+            <h3><button class="checkout_button">Check out</button></h3>
+          </div>
+        </div>
+        <div class="wishlist">
+          <div class="wishlist_title">
+            <h3>&#129655; Wishlist</h3>
+            <h3><button class="clear_wishlist">Clear</button></h3>
+          </div>
+          <div class="wishlist_items"></div>
+          <div class="move_to_cart">
+            <h3>
+              <button class="move_to_shoppingcart">Add to shopping cart</button>
+            </h3>
+          </div>
+        </div>
+      </aside>
+      <div class="shop_items">
+        <div>
+          <h2 id="products_title">Our products</h2>
+        </div>
+        <div class="best_items"></div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy Wengs Digital World Inc.</p>
+    </footer>
+  </body>
+</html>
